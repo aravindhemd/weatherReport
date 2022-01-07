@@ -1,7 +1,9 @@
-#database Name
+
+
+##database Name
 testdb
 
-#Create Table
+##Create Table
 CREATE TABLE `weather` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `location` varchar(500) NOT NULL,
@@ -12,3 +14,6 @@ CREATE TABLE `weather` (
   `req_time` datetime NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4
+
+
+For Request Please Refer SampleImages
