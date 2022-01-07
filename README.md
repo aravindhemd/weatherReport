@@ -1,9 +1,9 @@
 
 
-##database Name
+# database Name
 testdb
 
-##Create Table
+# Create Table
 CREATE TABLE `weather` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `location` varchar(500) NOT NULL,
